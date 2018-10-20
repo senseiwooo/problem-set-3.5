@@ -1,7 +1,7 @@
 body {
-  background: #136a8a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #136a8a;  
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  
+  background: linear-gradient(to right, #267871, #136a8a); 
   color: white;
 }
 
@@ -28,7 +28,6 @@ li a.listlink {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a.listlink:hover {
     background-color: #111;
 }
