@@ -1,4 +1,4 @@
-/* for whole document */
+/* universal */
 
 body {
   background: #136a8a;
@@ -38,17 +38,73 @@ body {
   font-family: sans-serif;
 }
 
+a.link:hover {
+  color: red;
+}
+
+img.border {
+  border: 2px solid black
+}
+
+h2#headercolor {
+  color: #D3D3D3;
+}
+
 /* index.html */
+
+.introbullets li {
+  font-style: italic;
+}
+
+h2.underline {
+  text-decoration: underline;
+}
+
+h3.underline {
+  text-decoration: underline;
+}
+
+p#chessintro {
+  font-style: italic;
+}
 
 img#chesspieces {
   height: 200px;
   width: 350px;
+  border-radius: 10px;
+  border: 2px solid black
 }
 
 /* famous players.html */
+
+h2#famousplayers {
+  font-weight: bold;
+  color: #D3D3D3;
+}
+
+h2.underline {
+  text-decoration: underline;
+}
+
+p#famousintro {
+  font-style: italic;
+}
+
+th.tableheader {
+  font-weight: bold;
+  font-style: italic;
+}
+
+th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 table, th, td {
   border-collapse: collapse;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 img#fischer {
@@ -67,6 +123,15 @@ img#lasker {
 }
 
 /* howtoplay.html */
+
+.howtoplaydiv h3, h4 {
+  text-decoration: underline;
+}
+
+h2.underline {
+  text-decoration: underline;
+}
+
 img#setup {
   height: 200px;
   width: 300px
@@ -83,6 +148,19 @@ img.howtoplay {
 }
 
 /* getinvolved.html */
+
+.getinvolveddiv h3 {
+  text-decoration: underline;
+}
+
+p#getinvolvedintro {
+  font-size: 16px;
+  font-style: italic;
+}
+
+h2.underline {
+  text-decoration: underline;
+}
 
 img#chessclub {
   height: 320px;
@@ -101,5 +179,5 @@ img#chessbook {
 
 img#onlinechess {
   height: 225px;
-  width: 300px; 
+  width: 300px;
 }
