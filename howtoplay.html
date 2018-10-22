@@ -3,7 +3,7 @@
 <html>
   <head>
     <title> How to Play </title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
   </head>
   <body>
     <div class="navbar">
@@ -29,7 +29,7 @@
       another knight, and another rook. In the second row, there are only pawns. In total, one side has 2 rooks, 2 knights, 2 bishops,
       1 queen, and 1 king. As shown, black's pieces are set in the same fashion paralle to white's. White moves first.
     </p>
-    <img src="../problem-set-3.5/images/chesssetup.jpg" height="200px" width="300px"/>
+    <img id="setup" src="../problem-set-3.5/images/chesssetup.jpg"/>
     <h3>
       The Board
     </h3>
@@ -39,7 +39,7 @@
       are labelled using numbers 1-8 from top to bottom. And the files (columns) are labelled using letters from A-H from left to right.
       This board orientation is shown from white's perpective.
     </p>
-    <img src="../problem-set-3.5/images/notation.jpg" height="395px" width="400px"/>
+    <img id="notation" src="../problem-set-3.5/images/notation.jpg"/>
     <h3>
       Piece Movements
     </h3>
@@ -59,7 +59,7 @@
           <li>Pawns capture pieces one square diagonal to them</li>
         </ul>
       </p>
-      <img src = "../problem-set-3.5/images/pawn.png" height="350px" width="350px"/>
+      <img class="howtoplay" src = "../problem-set-3.5/images/pawn.png"/>
 
     <h4>
       The Rook
@@ -71,7 +71,7 @@
         <li> It cannot jump over enemy pieces </li>
         <li> It can capture a piece when it encounters one </li>
       </ul>
-    <img src="../problem-set-3.5/images/rook.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/rook.png"/>
     <h4>
       The Knight
     </h4>
@@ -83,7 +83,7 @@
           <li> Captures piecs when it encounters one </li>
         </ul>
     </p>
-    <img src="../problem-set-3.5/images/knight.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/knight.png"/>
     <h4>
       The Bishop
     </h4>
@@ -95,7 +95,7 @@
         <li>Captures a piece when it encounters one.</li>
       </ul>
     </p>
-    <img src="../problem-set-3.5/images/bishop.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/bishop.png"/>
     <h4>
       The Queen
     </h4>
@@ -107,7 +107,7 @@
         <li>Captures a piece when it encounters one</li>
       </ul>
     </p>
-    <img src="../problem-set-3.5/images/queen.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/queen.png"/>
     <h4>
       The King
     </h4>
@@ -116,7 +116,7 @@
       <li>Can move one square in any direction </li>
       <li>Captures a piece when it encounters one</li>
     </p>
-    <img src="../problem-set-3.5/images/king.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/king.png"/>
     </p>
     <br>
     <p>
@@ -133,7 +133,7 @@
       Check occurs when the King is being attacked by any enemy piece. It is illegal to capture the King so when the King is being attacked, the King must either
       move, a piece must capture the attacking piece, or a piece must block the check.
     </p>
-    <img src="../problem-set-3.5/images/check.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/check.png"/>
     <h4>
       Castling
     </h4>
@@ -142,7 +142,7 @@
       rook comes over the King, one square to the right. The King can castle on either sides of the board either Kingside or Queenside. However, you cannot castle through check, meaning
       the King is checked while moving 2 squares or while in check.
     </p>
-    <img src="../problem-set-3.5/images/castling.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/castling.png"/>
     <h4>
       Pawn Promotion
     </h4>
@@ -150,7 +150,7 @@
       When a pawn reaches the opposite side of the board, it can become a Rook, Knight, Bishop, or Queen. 99% of the time, you want to promote to the Queen as it is the strongest
       piece for each side.
     </p>
-    <img src="../problem-set-3.5/images/promotion.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/promotion.png"/>
     <h4>
       Checkmate
     </h4>
@@ -158,7 +158,7 @@
       Many of you may have heard of this term when referring to chess. This is because it is how you actually win the game. Checkmate is achieved when the King is in check and there is no legal
       move to be played by the person in check. Think of it like the ruler of your kingdom being trapped and thus, all of your forces having to surrender.
     </p>
-    <img src="../problem-set-3.5/images/checkmate.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/checkmate.png"/>
     <h4>
       Draw
     </h4>
@@ -179,7 +179,7 @@
       En Passant is a confusing rule and one that many players do not understand. If a pawn moves forward 2 squares and an opposing pawn could have captured it if it had moved 1 square,
       that pawn is still allowed to take the pawn that moved forward 2 squares only immediately after the move has occurred.
     </p>
-    <img src="../problem-set-3.5/images/enpassant.png" height="350px" width="350px"/>
+    <img class="howtoplay" src="../problem-set-3.5/images/enpassant.png"/>
     <hr>
     <footer>
       <p>Siddharth Lal © 2018 </p>

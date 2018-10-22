@@ -1,0 +1,105 @@
+/* for whole document */
+
+body {
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: linear-gradient(to right, #267871, #136a8a);
+  color: white;
+}
+
+ul.listnav {
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.listitems {
+    font-family: sans-serif;
+    float: left;
+}
+
+li a.listlink {
+    font-family: Arial;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.listlink:hover {
+    background-color: #111;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* index.html */
+
+img#chesspieces {
+  height: 200px;
+  width: 350px;
+}
+
+/* famous players.html */
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+img#fischer {
+  height: 150px;
+  width: 250px;
+}
+
+img#kasparov {
+  height: 150px;
+  width: 250px;
+}
+
+img#lasker {
+  height: 300px;
+  width: 250px;
+}
+
+/* howtoplay.html */
+img#setup {
+  height: 200px;
+  width: 300px
+}
+
+img#notation {
+  height: 395px;
+  width: 400px;
+}
+
+img.howtoplay {
+  height: 350px;
+  width: 350px
+}
+
+/* getinvolved.html */
+
+img#chessclub {
+  height: 320px;
+  width: 480px;
+}
+
+img#chesstournament {
+  height: 320px;
+  width: 600px;
+}
+
+img#chessbook {
+  height: 260px;
+  width: 460px;
+}
+
+img#onlinechess {
+  height: 225px;
+  width: 300px; 
+}
